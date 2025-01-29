@@ -1,0 +1,14 @@
+C:\programacion\Proyecto de pro\bin\Debug\net8.0\Proyecto de pro.exe
+C:\programacion\Proyecto de pro\bin\Debug\net8.0\Proyecto de pro.deps.json
+C:\programacion\Proyecto de pro\bin\Debug\net8.0\Proyecto de pro.runtimeconfig.json
+C:\programacion\Proyecto de pro\bin\Debug\net8.0\Proyecto de pro.dll
+C:\programacion\Proyecto de pro\bin\Debug\net8.0\Proyecto de pro.pdb
+C:\programacion\Proyecto de pro\obj\Debug\net8.0\Proyecto de pro.GeneratedMSBuildEditorConfig.editorconfig
+C:\programacion\Proyecto de pro\obj\Debug\net8.0\Proyecto de pro.AssemblyInfoInputs.cache
+C:\programacion\Proyecto de pro\obj\Debug\net8.0\Proyecto de pro.AssemblyInfo.cs
+C:\programacion\Proyecto de pro\obj\Debug\net8.0\Proyecto de pro.csproj.CoreCompileInputs.cache
+C:\programacion\Proyecto de pro\obj\Debug\net8.0\Proyecto de pro.dll
+C:\programacion\Proyecto de pro\obj\Debug\net8.0\refint\Proyecto de pro.dll
+C:\programacion\Proyecto de pro\obj\Debug\net8.0\Proyecto de pro.pdb
+C:\programacion\Proyecto de pro\obj\Debug\net8.0\Proyecto de pro.genruntimeconfig.cache
+C:\programacion\Proyecto de pro\obj\Debug\net8.0\ref\Proyecto de pro.dll

@@ -1,19 +1,12 @@
-﻿using ELlabe;
-using Heroes;
-namespace Programa;
-public class Programa
+﻿// Program.cs
+
+namespace LabyrinthGame
 {
-    private static void Main(string [] args)
+    class Program
     {
-        Console.Title = "Laberinto";
-        List<Heroe> equipo = MenuSeleccion.SeleccionarHeroes();
-        System.Console.WriteLine("===== TU EQUIPO ====");
-        foreach(Heroe heroe in equipo)
+        static void Main(string[] args)
         {
-            System.Console.WriteLine($"{heroe.Nombre} ");
+            new GameManager().StartGame();
         }
-         //System.Console.WriteLine("aqui tienes tu laberinto \n Pum");
-        //Laberinto laberinto = new Laberinto(51);
-        //laberinto.Printeo();
     }
 }

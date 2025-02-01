@@ -5,7 +5,7 @@ namespace LabyrinthGame.Traps;
         public WebTrap()
         {
             Name = "Web Trap";
-            Symbol = 'W';
+            Symbol = "🕸";
         }
 
         public override void ApplyEffect(Hero hero)

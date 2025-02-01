@@ -4,7 +4,7 @@ public class TeleportTrap : Trap
         public TeleportTrap()
         {
             Name = "Teleport Trap";
-            Symbol = 'T';
+            Symbol = "🛸";
         }
 
         public override void ApplyEffect(Heroes.Hero hero)

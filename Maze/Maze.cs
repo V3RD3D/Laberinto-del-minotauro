@@ -8,7 +8,7 @@ namespace LabyrinthGame
 {
     public class Maze
     {
-        private char[,] grid;
+        private string[,] grid;
         private List<Trap> traps;
         private (int X, int Y) exit;
         private Random random = new Random();
@@ -18,7 +18,7 @@ namespace LabyrinthGame
         public Maze(int size)
         {
             Size = size;
-            grid = new char[size, size];
+            grid = new string[size, size];
             exit = (size - 1, size - 1);
             InitializeTraps();
             Generate();
@@ -41,23 +41,23 @@ namespace LabyrinthGame
             {
                 for (int j = 0; j < Size; j++)
                 {
-                    if (random.Next(100) < 15) grid[i, j] = '#'; // Obstáculos
+                    if (random.Next(100) < 15) grid[i, j] = "🏛"; // Obstáculos
                     else if (random.Next(100) < 10) // Trampas
                     {
                         var trap = traps[random.Next(traps.Count)];
                         grid[i, j] = trap.Symbol;
                     }
-                    else grid[i, j] = '.';
+                    else grid[i, j] = "  ";
                 }
             }
-            grid[exit.X, exit.Y] = 'E'; // Salida
+            grid[exit.X, exit.Y] = "🚪"; // Salida
         }
 
         public bool IsValidMove((int X, int Y) position)
         {
             return position.X >= 0 && position.Y >= 0 &&
                    position.X < Size && position.Y < Size &&
-                   grid[position.X, position.Y] != '#';
+                   grid[position.X, position.Y] != "🏛";
         }
 
         public Trap GetTrapAt((int X, int Y) position)
@@ -87,7 +87,7 @@ namespace LabyrinthGame
             }
             
             Console.WriteLine("\nLEGEND:");
-            Console.WriteLine("#: Wall | S: Spikes | W: Web | T: Teleport | E: Exit");
+            Console.WriteLine("🏛: Wall | 🗻: Spikes | 🕸: Web | 🛸: Teleport | 🚪: Exit");
             Console.WriteLine($"Current Hero: {currentHero.Name} ({currentHero.Emoji})");
         }
     }

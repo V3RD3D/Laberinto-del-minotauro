@@ -13,7 +13,7 @@
             };
             heroes.Add(ariadne);
 
-            var perseus = new Hero("Perseus", 100, 4, "Medusa's Head", 5, "👨🏼🎤");
+            var perseus = new Hero("Perseus", 100, 4, "Medusa's Head", 5, "👨🏼");
             perseus.SpecialAbility = () =>
             {
                 Console.WriteLine("Petrifies enemies in 2-tile radius for 2 turns!");

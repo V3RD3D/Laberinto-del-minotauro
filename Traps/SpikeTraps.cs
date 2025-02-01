@@ -6,7 +6,7 @@ namespace LabyrinthGame.Traps;
         public SpikeTrap()
         {
             Name = "Spike Trap";
-            Symbol = 'S';
+            Symbol = "🗻";
         }
 
         public override void ApplyEffect(Heroes.Hero hero)
